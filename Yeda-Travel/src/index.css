@@ -1,0 +1,9 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aplica la fuente globalmente */
+body {
+  font-family: 'Poppins', 'Roboto', sans-serif;
+}
