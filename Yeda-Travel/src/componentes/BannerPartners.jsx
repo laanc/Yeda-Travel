@@ -16,9 +16,9 @@ const logos = [airline1, airline2, airline3, airline4, airline5, airline6, airli
 
 function BannerPartners() {
   return (
-    <section className="bg-[#fefefe] py-6 overflow-hidden">
+    <section className="bg-[#fefefe] py-12 overflow-hidden">
       <div className="max-w-screen-xl mx-auto text-center">
-        <h2 className="text-[#2d365d] text-2xl font-semibold mb-4">
+        <h2 className="text-[#2d365d] text-2xl font-semibold mb-6">
           Trabajamos con las mejores aerolíneas y empresas
         </h2>
 
@@ -28,11 +28,11 @@ function BannerPartners() {
             className="flex space-x-10"
             animate={{ x: ["0%", "-100%"] }} // Movimiento continuo
             transition={{
-              repeat: Infinity, // Infinito
-              duration: 15, // Velocidad controlada
+              repeat: Infinity, // Repite infinitamente
+              duration: 18, // Ligeramente más lento
               ease: "linear", // Movimiento suave
             }}
-            style={{ display: "flex", minWidth: "200%" }} // Expande para efecto sin fin
+            style={{ display: "flex", minWidth: "200%" }} // Expande para el efecto sin fin
           >
             {/* Repetimos el contenido infinitamente */}
             {[...logos, ...logos].map((logo, index) => (
@@ -40,7 +40,7 @@ function BannerPartners() {
                 <img
                   src={logo}
                   alt={`Logo ${index + 1}`}
-                  className="w-96 h-48 object-contain" // Logos más grandes
+                  className="w-[200px] md:w-[250px] h-32 object-contain mx-auto" // Tamaño adaptado
                 />
               </div>
             ))}

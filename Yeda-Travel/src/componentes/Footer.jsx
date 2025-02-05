@@ -15,16 +15,16 @@ function Footer() {
           {/* Información de contacto */}
           <div className="text-center md:text-left">
             <h4 className="text-xl font-semibold mb-4">Contacto</h4>
-            <p className="text-sm mb-2">Teléfono: +34 123 456 789</p>
+            <p className="text-sm mb-2">Teléfono: +51952052348</p>
             <p className="text-sm mb-2">Email: contacto@tuagencia.com</p>
-            <p className="text-sm mb-2">Dirección: Calle Ficticia, 123, Madrid</p>
+            <p className="text-sm mb-2">Dirección: Centro Aéreo Comercial Oficina 103 Modulo B Callao Perú</p>
           </div>
         </div>
 
         {/* Desarrollador y año */}
         <div className="mt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Tu Agencia. Todos los derechos reservados.</p>
-          <p>Desarrollado por <a href="https://tuportfolio.com" className="underline">Tu Nombre</a></p>
+          <p>&copy; {new Date().getFullYear()} Yeda Travel. Todos los derechos reservados.</p>
+          <p>Desarrollado por <a href="https://tuportfolio.com" className="underline">FDX Web Developer</a></p>
         </div>
       </div>
     </footer>
