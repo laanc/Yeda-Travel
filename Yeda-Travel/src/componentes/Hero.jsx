@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import heroImage from "../assets/hero.jpg"; // Asegúrate de que la ruta sea correcta
 
 function Hero() {
@@ -23,12 +22,12 @@ function Hero() {
         <p className="mt-4 text-lg md:text-xl text-[#fefefe]">
           Encuentra los mejores destinos y ofertas para tu próximo viaje.
         </p>
-        <Link
-          to="#destinos"
+        <a
+          href="#ofertas" // Usamos un enlace tradicional con href
           className="mt-6 inline-block bg-[#2cbfcf] text-[#fefefe] px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#238b94] transition transform hover:scale-105 focus:outline-none"
         >
-          Explorar Destinos
-        </Link>
+          Explorar Ofertas
+        </a>
       </div>
     </section>
   );
